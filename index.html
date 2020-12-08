@@ -260,10 +260,11 @@
       <p>Solution:</p>
       <pre>
       <code>
-        &lth3>In this course we'll learn:&lt/h3>
-        &ltp>HTML & CSS&lt/p>
-        &lt!-- &ltp>Python&lt/p> -->
-        &ltp>Javascript&lt/p>
+        &ltnav>
+          &lta href="#top">Top&lt/a>
+          &lta href="#top">Top&lt/a>
+          &lta href="#top">Top&lt/a>
+        &lt/nav>
       </code>
     </pre>
     </section>
@@ -274,7 +275,10 @@
       <p>Solution:</p>
       <pre>
       <code>
-        &lta href="https://www.coderschool.vn">CoderSchool&lt/a>
+        &ltdetails>
+          &ltsummary>Find out more below!&lt/summary>
+          &ltp>Jinx! Nothing is here!&lt/p>
+        &lt/details>
       </code>
     </pre>
     </section>
@@ -285,10 +289,41 @@
       <p>Solution:</p>
       <pre>
       <code>
-        &lth3>In this course we'll learn:&lt/h3>
-        &ltp>HTML & CSS&lt/p>
-        &lt!-- &ltp>Python&lt/p> -->
-        &ltp>Javascript&lt/p>
+        &ltform>
+          &ltlabel>Email&lt/label&ltbr>
+          &ltinput placeholder="Email">&lt/input>&ltbr>
+          &ltlabel>Password&lt/label>&ltbr>
+          &ltinput placeholder="Password">&lt/input>&ltbr>
+          &ltlabel>Confirm Password&lt/label>&ltbr>
+          &ltinput placeholder="Confirm Password">&lt/input>&ltbr>
+          &ltlabel>Title&lt/label>
+          &ltlabel for="Developer">
+            &ltinput type="radio" name="title" id="Developer" value="Developer"> Developer
+          &lt/label>
+          &ltlabel for="Employer">
+            &ltinput type="radio" name="title" id="Employer" value="Employer"> Employer
+          &lt/label>&ltbr>
+          &ltlabel>Interested in:&lt/label>
+          &ltlabel for="ReactJS">
+            &ltinput type="checkbox" name="interests" id="ReactJS" value="ReactJS"> ReactJS
+          &lt/label>
+          &ltlabel for="NodeJS">
+            &ltinput type="checkbox" name="interests" id="ReactJS" value="ReactJS"> ReactJS
+          &lt/label>
+          &ltlabel for="Web Design">
+            &ltinput type="checkbox" name="interests" id="Web Design" value="Web Design"> Web Design
+          &lt/label>
+          &ltlabel for="city">
+          City: &ltselect name="cities" id="city">
+            &ltoption>Ho Chi Minh City&lt/option>
+            &ltoption> Hanoi&lt/option>
+            &ltoption> Da Nang&lt/option>
+          &lt/select>
+          &lt/label>
+          &ltlabel>Short Bio:&lt/label>&ltbr>
+          &lttextarea rows="5" columns="15">&lt/textarea>&ltbr>
+          &ltbutton type="button" disabled> Press me!&lt/button>
+        &lt/form>
       </code>
     </pre>
     </section>
